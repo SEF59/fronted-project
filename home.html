@@ -1,19 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="">
     <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
+    <header class="w-full flex bg-black font-[700] p-6 text-white justify-between">
+        <nav class="space-x-6">
+            <a href="home.html">Home</a>
+            <a href="over-mij.html">Over mij</a>
+            <a href="werk.html">Mijn werk</a>
+        </nav>
 
-    
-    <nav class="Navigatie">
-        <a href="Home.html">Home</a>
-        <a href="Nieuw.html">Nieuw</a>
-        <a href="Sale.html">Sale</a>
-    </nav>
+        <div>
+            <h1 class="text-cyan-700">Portfolio</h1>
+        </div>
+    </header>
 
-    
+
+    <main class="p-16 bg-black">
+        <div class="flex border-1 mx-auto w-3/4 p-24 rounded bg-black shadow-md shadow-cyan-700">
+
+            <div class="flex flex-col gap-2 text-white font-[700] mr-8">
+                <h2 class="text-2xl font-[700]">Portfolio</h2>
+                <p>welkom bij mijn portfolio,
+                    ik ben Sefanja Pattiwael ik ben 18 jaar en hier kunt u vinden wie ik ben,
+                    wat ik doe en waar ik vandaan kom.</p>
+            </div>
+
+            <img class="w-64 h-64 object-cover rounded " src="foto's/Image.jpg" alt="foto van sefanja pattiwael">
+
+        </div>
+    </main>
+
+
+    <footer class=" w-full bg-black p-6 text-white text-center">
+        <p>&copy; Sefanja Pattiwael </p>
+    </footer>
 </body>
+
 </html>
